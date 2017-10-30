@@ -7,7 +7,7 @@ First, make sure `libmemcached` library and development headers are installed on
 On Ubuntu 16.04 or similar, the version in system repository is new enough. So you can install it directly.
 
 ```
-sudo apt-get install libmemcached-dev
+sudo apt-get install libmemcached-dev zlib1g-dev
 ```
 
 On other systems, such as CentOS 7 or Ubuntu 14.04, you should install the library from source code.
