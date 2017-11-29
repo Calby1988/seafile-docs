@@ -160,7 +160,7 @@ sleep 10
 
 # run the cleanup
 echo Seafile cleanup started...
-sudo -u seafile $pathtoseafile/seafile-server-latest/seaf-gc.sh -r
+sudo -u seafile $pathtoseafile/seafile-server-latest/seaf-gc.sh
 
 echo Giving the server some time....
 sleep 3
